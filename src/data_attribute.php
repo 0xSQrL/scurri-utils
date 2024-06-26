@@ -56,7 +56,7 @@ trait DataAttribute
         }, $property->getAttributes(static::class));
     }
 
-    private static function initializeFor($attr, \ReflectionClass | \ReflectionProperty | \ReflectionMethod $property){
+    public static function initializeFor($attr, \ReflectionClass | \ReflectionProperty | \ReflectionMethod $property){
         $attr->effects = $property;
         $attr->initialize();
     }
