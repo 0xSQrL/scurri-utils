@@ -1,0 +1,17 @@
+{
+    "name": "scurri/utils",
+    "description": "Utilities for Scurri PHP packages",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Scurri\\Utils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William Silloway",
+            "email": "wsilloway@gmail.com"
+        }
+    ],
+    "require": {}
+}
