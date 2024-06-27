@@ -1,5 +1,5 @@
 <?php
-namespace Scurri\Utils;
+namespace Scurriio\Utils;
 
 trait Singleton{
     private static object $instance;

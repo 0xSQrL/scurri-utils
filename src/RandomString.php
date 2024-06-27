@@ -1,5 +1,5 @@
 <?php
-namespace Scurri\Utils;
+namespace Scurriio\Utils;
 
 class RandomString{
     /**

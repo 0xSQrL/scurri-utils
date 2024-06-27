@@ -1,11 +1,11 @@
 {
-    "name": "scurri/utils",
+    "name": "scurriio/utils",
     "description": "Utilities for Scurri PHP packages",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Scurri\\Utils\\": "src/"
+            "Scurriio\\Utils\\": "src/"
         }
     },
     "authors": [
